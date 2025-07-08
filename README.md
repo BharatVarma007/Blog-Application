@@ -2,6 +2,8 @@
 
 A simple and elegant full-stack blog application built with **Django** (backend) and **Angular** (frontend). It includes user authentication, post creation/editing, commenting, and a seamless UI. Built for learning, demonstration, and lightweight publishing!
 
+This application uses Bootstrap5 for styling.
+
 ---
 
 ##  Features
