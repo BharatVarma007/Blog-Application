@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h2>Register</h2>
+  <form (ngSubmit)="register()">
+    <div class="mb-3">
+      <label class="form-label">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="username"
+        name="username"
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        [(ngModel)]="password"
+        name="password"
+        required
+      />
+    </div>
+    <button class="btn btn-primary">Register</button>
+    <a routerLink="/login" class="btn btn-secondary ms-2">Back to Login</a>
+  </form>
+</div>
